@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My Website</title>
+    <link rel="stylesheet" type="text/css" href="styles/styles.css">
+
+
+</head>
+<body>
+    <div class="outer-wrapper">
+        <div class="inner-wrapper">
+            <div id="typed-strings">
+                <p>I'm <strong>Jayanth</strong></p>
+                <p>I<em> study EEE in</em> NIT Calicut</p>
+              </div>
+              <span id="typed"></span>
+        </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+    <script>
+        var typed = new Typed('#typed', {
+          stringsElement: '#typed-strings',
+          loop: true,
+          typeSpeed: 50,
+
+        });
+      </script>
+</body>
+</html>
